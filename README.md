@@ -1,49 +1,72 @@
-# 📖 Implement CSS Box Model Properties to Design Layout
-Work with a partner to implement the following user story:
+# HTML Box Model Example
 
-* As a developer, I want to use the CSS box model properties to position four boxes inside a frame.
+This project demonstrates the use of the HTML box model. It includes an HTML file and a CSS file to showcase how different properties like `margin`,padding`,and `border`affect the layout of elements.
 
-## Acceptance Criteria
+## Project Structure
+   assets
+│ ├── css
+│ │ └── style.css
+│ └── images
+│ ├── image-1.png
+│ ├── image-2.png
+│ ├── image-3.png
+│ └── image-4.png
+│
+└── index.html
 
-* It's done when each box has a defined `padding` property.
+  
+## Files
 
-* It's done when each box has a defined `margin` property.
+### index.html
 
-* It's done when each box has a defined `border` property.
+   This is the main HTML file that includes a section with four images.
+  html
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Box Model</title>
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+</head>
+<body>
+    <section>
+        <img src="./assets/images/image-1.png" alt="box with number 1"/>
+        <img src="./assets/images/image-2.png" alt="box with number 2"/>
+        <img src="./assets/images/image-3.png" alt="box with number 3"/>
+        <img src="./assets/images/image-4.png" alt="box with number 4"/>
+    </section>
+</body>
+</html>
 
-* It's done when the finished page matches the mockup.
+# 📖  style.css
+This CSS file contains the styling rules for the HTML file. It demonstrates the use of width, height, text-align, border, margin, padding, and background-color properties.
+
+# Description
+## HTML File:
+
+* The HTML file defines a simple webpage with a section element containing four img elements.
+* Each image has an alt attribute describing the content of the image.
+  CSS File:
+
+    The section element is styled to have a width and height of 600px, centered text, and a 
+  black border.
+  Each img element is styled to have a width and height of 200px, a light blue background 
+  color, a margin of 20px, padding of 20px, and a dark blue border.
+# Usage
+  To view the project, simply open the index.html file in a web browser. You will see four 
+  images styled according to the CSS rules specified in the style.css file.
 
 ## 📝 Notes
+    Ensure that the paths to the CSS and image files are correct.
+ The alt attributes in the img tags provide alternative text for the images, which is useful 
+ for accessibility and when the images cannot be displayed.
 
-Refer to the documentation:
+# License
+ This project is licensed under the MIT License - see the LICENSE file.
 
-[MDN Web Docs on CSS box model](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model)
+ Feel free to customize the `README.md` file further based on your project's specific details 
+ and requirements.
 
-[MDN Web Docs on padding](https://developer.mozilla.org/en-US/docs/Web/CSS/padding)
 
-[MDN Web Docs on margin](https://developer.mozilla.org/en-US/docs/Web/CSS/margin)
 
-[MDN Web Docs on border](https://developer.mozilla.org/en-US/docs/Web/CSS/border)
 
-## Assets
-
-The following image demonstrates the web application's appearance and functionality:
-
-![Four numbered, differently colored boxes appear evenly spaced inside a larger box.](./assets/image-1.png)
-
----
-
-## 💡 Hints
-
-How can we use the `margin` property to define the space between elements?
-
-## 🏆 Bonus
-
-If you have completed this activity, work through the following challenge with your partner to further your knowledge:
-
-* What is the CSS `float` property?
-
-Use [Google](https://www.google.com) or another search engine to research this.
-
----
-© 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
